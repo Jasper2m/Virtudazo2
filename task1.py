@@ -1,10 +1,15 @@
-num_fruits = int(input("Enter fave fruits"))
-fruits = []
+myfavfruits = int(input("Enter  number of your fave fruits"))
+myfavfruits = []
 
-for i in range(num_fruits):
-    fruit = input(f"Enter fruit {i+1}:")
-    fruits.append(fruit)
+for data in range(myfavfruits):
+    fruit = input(f"Enter fruit:")
+    myfavfruits.append(fruits)
 
-print("Your favorite fruits are:")
-for fruit in fruits:
-    print(fruit)
+print("myfavfruits")
+
+for data in myfavfruits:
+    if data == "banana" :
+        break
+    elif data == "apple" :
+        print("happy eating")
+        
